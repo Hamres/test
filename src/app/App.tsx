@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect } from 'react';
+import React, { Suspense } from 'react';
 import './styles/index.scss';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTheme } from 'app/providers/ThemeProvider';
@@ -24,4 +24,4 @@ function App() {
 
 export default App;
 
-/// ///////////22 урок закончил
+/// ///////////25 урок закончил
