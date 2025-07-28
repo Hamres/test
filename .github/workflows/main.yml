@@ -27,3 +27,11 @@ jobs:
         run: npm run lint:scss
       - name: unit testing
         run: npm run test:unit
+      - name: build storybook
+        run: npm run storybook:build
+      - name: install playwright chromium only
+        run: npx playwright install chromium
+      - name: serve static storybook
+        run: npx http-server storybook-static -p 6006 &
+      - name: visual regression testing
+        run: npm run test:ui
