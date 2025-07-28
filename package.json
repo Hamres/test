@@ -13,7 +13,6 @@
     "test:unit": "jest --config ./config/jest/jest.config.ts",
     "test:ui": "npx playwright test --project=chromium",
     "test:ui:ok": "npx playwright test --update-snapshots",
-    "test:ui:ci": "npx serve -s storybook-static -l 6006 & npx wait-on http://localhost:6006 && npm run test:ui",
     "storybook": "storybook dev -p 6006 -c ./config/storybook",
     "storybook:build": "storybook build -c ./config/storybook"
   },
