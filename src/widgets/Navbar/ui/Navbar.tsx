@@ -38,7 +38,8 @@ export const Navbar = ({ className }: NavbarProps) => {
       {/* eslint-disable-next-line i18next/no-literal-string */}
       <Modal onClose={onToggleModal} isOpen={isAuthModal}>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Ad alias dolorum explicabo ipsum molestiae nihil numquam perferendis reprehenderit voluptatem voluptates.
+        Ad alias dolorum explicabo ipsum molestiae nihil
+        numquam perferendis reprehenderit voluptatem voluptates.
       </Modal>
     </div>
   );
