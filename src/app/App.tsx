@@ -1,5 +1,4 @@
 import React, { Suspense } from 'react';
-import './styles/index.scss';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTheme } from 'app/providers/ThemeProvider';
 import { AppRouter } from 'app/providers/router';
@@ -13,6 +12,7 @@ function App() {
     <div className={classNames('app', {}, [theme])}>
       <Suspense fallback="">
         <Navbar />
+
         <div className="content-page">
           <Sidebar />
           <AppRouter />
@@ -24,4 +24,4 @@ function App() {
 
 export default App;
 
-/// ///////////26 урок закончил
+/// ///////////29 урок 4.55 остаток, посмотреть изменения ui
