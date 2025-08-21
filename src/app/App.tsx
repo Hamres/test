@@ -12,7 +12,6 @@ function App() {
     <div className={classNames('app', {}, [theme])}>
       <Suspense fallback="">
         <Navbar />
-
         <div className="content-page">
           <Sidebar />
           <AppRouter />
@@ -24,4 +23,4 @@ function App() {
 
 export default App;
 
-/// ///////////29 урок 4.55 остаток, посмотреть изменения ui
+/// ///////////28 урок 14.10 остаток
