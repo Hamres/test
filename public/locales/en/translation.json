@@ -11,5 +11,7 @@
   "Обновить страницу": "Reload page",
   "throw Error": "throw Error",
   "Короткий язык": "En",
-  "decrement": "decrement"
+  "decrement": "decrement",
+  "Введите username": "Введите username",
+  "Введите пароль": "Введите пароль"
 }
