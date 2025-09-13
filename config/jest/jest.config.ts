@@ -34,6 +34,12 @@ export default {
     '\\.s?css$': 'identity-obj-proxy',
     '\\.svg': path.resolve(__dirname, 'jestEmptyComponent.tsx'),
   },
+  transform: {
+    '^.+\\.(t|j)sx?$': 'babel-jest',
+  },
+  transformIgnorePatterns: [
+    'node_modules/(?!(axios)/)', // разрешаем Jest обрабатывать axios
+  ],
   // Indicates whether the coverage information should be collected while executing the test
   // collectCoverage: false,
 

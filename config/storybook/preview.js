@@ -1,5 +1,9 @@
 import { Theme } from '../../src/app/providers/ThemeProvider';
-import { RouterDecorator, StyleDecorator, ThemeDecorator } from '../../src/shared/config/storybook';
+import {
+  RouterDecorator,
+  StyleDecorator,
+  ThemeDecorator,
+} from '../../src/shared/config/storybook';
 
 /** @type { import('@storybook/react-webpack5').Preview } */
 const preview = {

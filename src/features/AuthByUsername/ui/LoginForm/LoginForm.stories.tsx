@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
+import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator';
 import { LoginForm } from './LoginForm';
 
 const meta = {
@@ -10,7 +11,22 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
-  args: {
+  args: {},
+  decorators: [StoreDecorator({
+    loginForm: { username: '123', password: 'asd' },
+  })],
+};
 
-  },
+export const WithError: Story = {
+  args: {},
+  decorators: [StoreDecorator({
+    loginForm: { username: '123', password: 'asd', error: 'ERROR' },
+  })],
+};
+
+export const Loading: Story = {
+  args: {},
+  decorators: [StoreDecorator({
+    loginForm: { isLoading: true },
+  })],
 };

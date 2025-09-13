@@ -12,6 +12,10 @@
   "throw Error": "throw Error",
   "Короткий язык": "En",
   "decrement": "decrement",
-  "Введите username": "Введите username",
-  "Введите пароль": "Введите пароль"
+  "Введите username": "Enter username",
+  "Введите пароль": "Enter пароль",
+  "Форма авторизации": "Auth form",
+  "Неверный логин или пароль": "Uncorrected username or password",
+  "Войти": "Login",
+  "Выйти": "Выйти"
 }
