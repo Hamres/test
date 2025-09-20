@@ -29,11 +29,10 @@
     "firstname": "Hamres",
     "lastname": "s",
     "age": 26,
-    "currency": "RUB",
-    "country": "Russia",
+    "currency": "EUR",
+    "country": "Belarus",
     "city": "Kazan",
     "username": "admin",
-    "avatar": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpikuco.ru%2Ftests%2F28%2F&psig=AOvVaw2WN9yczP2iQK-Ayc7qlFFD&ust=1758044841750000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNjtw8yp248DFQAAAAAdAAAAABAE"
-
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
   }
 }
