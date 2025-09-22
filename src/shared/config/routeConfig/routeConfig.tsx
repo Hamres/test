@@ -4,7 +4,7 @@ import { AboutPage } from 'pages/AboutPage';
 import { NotFoundPage } from 'pages/NotFoundPage';
 import { ProfilePage } from 'pages/ProfilePage';
 
-type AppRouterProps = RouteProps & {
+export type AppRouterProps = RouteProps & {
   authOnly?: boolean
 }
 
@@ -12,7 +12,7 @@ export enum AppRouters {
   MAIN = 'main',
   ABOUT = 'about',
   PROFILE = 'profile',
-  NOT_FOUND = 'not_found'
+  NOT_FOUND = 'not_found',
 }
 
 export const RoutePath: Record<AppRouters, string> = {
