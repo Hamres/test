@@ -29,6 +29,10 @@
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+
+  //:last-child svg {
+  //  padding-left: 4px;
+  //}
 }
 
 .collapsed {
