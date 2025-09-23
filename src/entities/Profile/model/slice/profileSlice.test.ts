@@ -14,7 +14,7 @@ const data = {
   firstname: 'Hamres',
 };
 
-describe('profileSlice.ts.test', () => {
+describe('profileSlice.test', () => {
   test('test set readonly', () => {
     const state: DeepPartial<ProfileSchema> = { readonly: false };
     expect(profileReducer(

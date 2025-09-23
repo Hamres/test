@@ -30,9 +30,9 @@
   display: flex;
   flex-direction: column;
 
-  //:last-child svg {
-  //  padding-left: 4px;
-  //}
+  :nth-child(3) {
+    padding-left: 3px;
+  }
 }
 
 .collapsed {
