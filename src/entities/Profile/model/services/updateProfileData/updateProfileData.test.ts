@@ -12,6 +12,7 @@ const data = {
   city: 'Moscow',
   lastname: 's',
   firstname: 'Hamres',
+
 };
 
 describe('updateProfileData.test', () => {

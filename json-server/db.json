@@ -102,6 +102,54 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123",
+      "id": "Z7RvXt7"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123",
+      "id": "zSLt11k"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "1231221211212",
+      "id": "hS1L7Kh"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "666",
+      "id": "F9ieBbN"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "22222",
+      "id": "x1ieI2j"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "111111",
+      "id": "qVfd4Kb"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "ssssssssssss",
+      "id": "SApunmm"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "123",
+      "id": "-mtXrBA"
     }
   ],
   "users": [
@@ -116,18 +164,32 @@
       "id": "2",
       "username": "user",
       "password": "123",
-      "role":  "USER",
+      "role": "USER",
       "avatar": "https://sectricity.com/wp-content/uploads/2023/05/Hacker-Cyber-Security-Internet-Sectricity.jpg"
     }
   ],
-  "profile": {
-    "firstname": "a",
-    "lastname": "s",
-    "age": 1,
-    "currency": "EUR",
-    "country": "Belarus",
-    "city": "Kazan",
-    "username": "admin",
-    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "firstname": "a",
+      "lastname": "s",
+      "age": 1,
+      "currency": "EUR",
+      "country": "Belarus",
+      "city": "Kazan",
+      "username": "admin",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
+    },
+    {
+      "id": "2",
+      "firstname": "aaaa2222",
+      "lastname": "s",
+      "age": 1,
+      "currency": "EUR",
+      "country": "Russia",
+      "city": "Kazan",
+      "username": "patris",
+      "avatar": "https://sectricity.com/wp-content/uploads/2023/05/Hacker-Cyber-Security-Internet-Sectricity.jpg"
+    }
+  ]
 }
