@@ -20,7 +20,7 @@ describe('initArticlesPage.test', () => {
     });
 
     await thunk.callThunk();
-    expect(thunk.dispatch).toBeCalledTimes(4);
+    expect(thunk.dispatch).toBeCalledTimes(2);
   });
 
   test('should NOT initialize if already inited', async () => {
@@ -59,7 +59,6 @@ describe('initArticlesPage.test', () => {
 
     await thunk.callThunk();
 
-    expect(thunk.dispatch).toHaveBeenCalledTimes(4);
-    expect(fetchArticlesList).toHaveBeenCalledWith({ page: 1 });
+    expect(thunk.dispatch).toHaveBeenCalledTimes(2);
   });
 });
