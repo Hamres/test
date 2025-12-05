@@ -184,7 +184,7 @@
       "id": "4",
       "title": "4etire",
       "subtitle": "Что нового в python за 2030 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png",
+      "img": "https://png.pngtree.com/png-clipart/20200309/ourmid/pngtree-gold-number-4-png-image_2158842.jpg",
       "views": 1022000,
       "createdAt": "12.02.2030",
       "userId": "1",
@@ -207,9 +207,9 @@
     {
       "id": "5",
       "title": "pyat",
-      "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s",
-      "views": 4022,
+      "subtitle": "Что нового в JS за 2030 год?",
+      "img": "https://img.freepik.com/premium-photo/number-5-png-3d-yellow-layer-font-transparent-background_53876-970720.jpg",
+      "views": 3,
       "createdAt": "20.05.2024",
       "userId": "1",
       "type": [
@@ -279,9 +279,9 @@
     {
       "id": "6",
       "title": "shest",
-      "subtitle": "Что нового в python за 2030 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png",
-      "views": 1022000,
+      "subtitle": "Что нового в python за 2035 год?",
+      "img": "https://i.pinimg.com/736x/39/52/12/395212ac9c8778170bdf0d337373090b.jpg",
+      "views": 10000,
       "createdAt": "12.02.2030",
       "userId": "1",
       "type": [
@@ -303,10 +303,10 @@
     {
       "id": "7",
       "title": "sem",
-      "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s",
-      "views": 4022,
-      "createdAt": "20.05.2024",
+      "subtitle": "Что нового ?",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTA7mYK1ydhsDqRmqiNnrQlx4eyzT8WtOgPw&s",
+      "views": 22,
+      "createdAt": "18.05.2012",
       "userId": "1",
       "type": [
         "IT"
@@ -375,9 +375,9 @@
     {
       "id": "8",
       "title": "vosem",
-      "subtitle": "Что нового в python за 2030 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png",
-      "views": 1022000,
+      "subtitle": "Что нового за 2025 год?",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6vyKf0c3dAvYvlAdwh21DbWKp78AbxtHog&s",
+      "views": 6666,
       "createdAt": "12.02.2030",
       "userId": "1",
       "type": [
@@ -399,9 +399,9 @@
     {
       "id": "9",
       "title": "devyat",
-      "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s",
-      "views": 4022,
+      "subtitle": "Как дела?",
+      "img": "data:image/png;base64,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",
+      "views": 2222,
       "createdAt": "20.05.2024",
       "userId": "1",
       "type": [
@@ -471,9 +471,9 @@
     {
       "id": "10",
       "title": "desyat",
-      "subtitle": "Что нового в python за 2030 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png",
-      "views": 1022000,
+      "subtitle": "нормально?",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVZbu75N2bYqbc0P-7EAsnt5rG4O52oTqrfA&s",
+      "views": 111,
       "createdAt": "12.02.2030",
       "userId": "1",
       "type": [
@@ -495,10 +495,10 @@
     {
       "id": "11",
       "title": "odinadcat",
-      "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s",
-      "views": 4022,
-      "createdAt": "20.05.2024",
+      "subtitle": "еееее?",
+      "img": "https://i.pinimg.com/736x/e0/ac/0d/e0ac0d1e258b88d08320fcaf43ac6159.jpg",
+      "views": 777,
+      "createdAt": "20.05.2010",
       "userId": "1",
       "type": [
         "IT"
@@ -566,14 +566,14 @@
     },
     {
       "id": "12",
-      "title": "dvenadcat",
-      "subtitle": "Что нового в python за 2030 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png",
-      "views": 1022000,
-      "createdAt": "12.02.2030",
+      "title": "dvenadcat - научная статья",
+      "subtitle": "Наука",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvQini2jCDGAiZYebYOTYWnnGoyfPG2O9BeA&s",
+      "views": 9999,
+      "createdAt": "12.02.2050",
       "userId": "1",
       "type": [
-        "IT"
+        "SCIENCE"
       ],
       "blocks": [
         {
@@ -590,14 +590,14 @@
     },
     {
       "id": "13",
-      "title": "trinadcat",
-      "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s",
-      "views": 4022,
+      "title": "trinadcat - экономическая статья",
+      "subtitle": "Экономика",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnSqKUYwJMZxWWnZpD1JNxAuxDP57siQ1chA&s",
+      "views": 1212,
       "createdAt": "20.05.2024",
       "userId": "1",
       "type": [
-        "IT"
+        "ECONOMIC"
       ],
       "blocks": [
         {
@@ -661,10 +661,34 @@
       ]
     },
     {
+      "id": "14",
+      "title": "4etirnadcat",
+      "subtitle": "Что нового в python за 2030 год?",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ8ICRweJj-cnk2wunp1w_TK5025rVya2T5Q&s",
+      "views": 1022000,
+      "createdAt": "12.02.2030",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
       "id": "15",
       "title": "dvenaaadcat",
       "subtitle": "Что нового в python за 2030 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png",
+      "img": "https://img.freepik.com/free-psd/15th-years-anniversary-lettering-3d-line-art-transparent-psd-font-design_460848-17462.jpg?semt=ais_hybrid&w=740&q=80",
       "views": 1022000,
       "createdAt": "12.02.2030",
       "userId": "1",
@@ -688,7 +712,7 @@
       "id": "16",
       "title": "dvenaawdawddcat",
       "subtitle": "Что нового в python за 2030 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlh08FXWlhStisd5ywR42VG4Zenz2-KAnn3w&s",
       "views": 1022000,
       "createdAt": "12.02.2030",
       "userId": "1",
@@ -712,7 +736,7 @@
       "id": "17",
       "title": "dvenadcdrgdrgrdat",
       "subtitle": "Что нового в python за 2030 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTlrLwbXxo8IFDhljdj5MP6kuLOLlua86maw&s",
       "views": 1022000,
       "createdAt": "12.02.2030",
       "userId": "1",
