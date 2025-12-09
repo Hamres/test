@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
 
-import { ArticleEditPage } from './ArticleEditPage';
+import ArticleEditPage from './ArticleEditPage';
 
 const meta = {
   title: 'shared/ArticleEditPage',
