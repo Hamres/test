@@ -23,6 +23,7 @@ module.exports = {
     '@typescript-eslint',
     'i18next',
     'react-hooks',
+    'test-eslint-plugin-v1',
   ],
   rules: {
     'react/jsx-indent': [2, 2],
@@ -55,6 +56,7 @@ module.exports = {
     'no-undef': 'off',
     'react/no-array-index-key': 'off',
     'arrow-body-style': 'off',
+    'test-eslint-plugin-v1/path-checker': 'error',
   },
   globals: {
     __IS_DEV__: true,

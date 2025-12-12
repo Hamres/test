@@ -1,11 +1,4 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
-
-import { classNames } from 'shared/lib/classNames/classNames';
-import cls from 'shared/ui/Code/Code.module.scss';
-import React, { Suspense } from 'react';
-import { Navbar } from 'widgets/Navbar';
-import { Sidebar } from 'widgets/Sidebar';
-import { AppRouter } from 'app/providers/router';
 import { Code } from './Code';
 
 const meta = {

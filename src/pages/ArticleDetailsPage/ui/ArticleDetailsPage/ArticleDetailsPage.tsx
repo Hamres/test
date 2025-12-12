@@ -11,9 +11,9 @@ import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEf
 import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { AddCommentForm } from 'features/addCommentForm';
 import { Page } from 'widgets/Page/Page';
-import { getArticleRecommendations } from 'pages/ArticleDetailsPage/model/slices/articleDetailsPageRecommendationsSlice';
-import { getArticleComments } from 'pages/ArticleDetailsPage/model/slices/articleDetailsCommentsSlice';
-import { ArticleDetailsPageHeader } from 'pages/ArticleDetailsPage/ui/ArticleDetailsPageHeader/ArticleDetailsPageHeader';
+import { getArticleComments } from '../../model/slices/articleDetailsCommentsSlice';
+import { ArticleDetailsPageHeader } from '../../ui/ArticleDetailsPageHeader/ArticleDetailsPageHeader';
+import { getArticleRecommendations } from '../../model/slices/articleDetailsPageRecommendationsSlice';
 import { articleDetailsPageReducer } from '../../model/slices';
 import {
   fetchArticleRecommendations,

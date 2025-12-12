@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
-import { Avatar } from 'shared/ui/Avatar/Avatar';
+import { Avatar } from './Avatar';
 import AvatarImg from './storybook.jpg';
 
 const meta = {

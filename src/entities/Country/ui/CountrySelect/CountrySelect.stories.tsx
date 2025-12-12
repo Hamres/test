@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
-import { CountrySelect } from 'entities/Country';
+import { CountrySelect } from '../CountrySelect/CountrySelect';
 
 const meta = {
   title: 'entities/CountrySelect',

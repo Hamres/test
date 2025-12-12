@@ -7,8 +7,8 @@ import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEffect';
 import { useSelector } from 'react-redux';
 import { Page } from 'widgets/Page/Page';
-import { ArticlesPageFilters } from 'pages/ArticlesPage/ui/ArticlesPageFilters/ArticlesPageFilters';
 import { useSearchParams } from 'react-router-dom';
+import { ArticlesPageFilters } from '../ArticlesPageFilters/ArticlesPageFilters';
 import { fetchNextArticlesPage } from '../../model/services/fetchNextArticlesPage/fetchNextArticlesPage';
 import { initArticlesPage } from '../../model/services/initArticlesPage/initArticlesPage';
 import {
@@ -35,7 +35,7 @@ const ArticlesPage = (props: ArticlesPageProps) => {
   const isLoading = useSelector(getArticlesPageIsLoading);
   const view = useSelector(getArticlesPageView);
   const error = useSelector(getArticlesPageError);
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
 
   const onLoadNextPart = useCallback(() => {
     dispatch(fetchNextArticlesPage());
