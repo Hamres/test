@@ -57,6 +57,7 @@ module.exports = {
           'align',
           'direction',
           'gap',
+          'role',
         ] }],
     'max-len': ['error', { ignoreComments: true, code: 125 }],
     'object-curly-newline': 'off',
