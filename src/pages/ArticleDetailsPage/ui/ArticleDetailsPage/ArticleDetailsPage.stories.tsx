@@ -45,7 +45,7 @@ const article: Article = {
 };
 
 const meta = {
-  title: 'pages/ArticleDetailsPage',
+  title: 'pages/ArticleDetailsPage/ArticleDetailsPage',
   component: ArticleDetailsPage,
 } satisfies Meta<typeof ArticleDetailsPage>;
 

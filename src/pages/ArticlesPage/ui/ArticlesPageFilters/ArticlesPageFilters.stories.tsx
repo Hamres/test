@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react-webpack5';
 import { ArticlesPageFilters } from './ArticlesPageFilters';
 
 const meta = {
-  title: 'pages/Article/ArticlesPageFilters',
+  title: 'pages/ArticlesPage/ArticlesPageFilters',
   component: ArticlesPageFilters,
 } satisfies Meta<typeof ArticlesPageFilters>;
 

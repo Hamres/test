@@ -1,19 +1,18 @@
 module.exports = (layer, componentName) => `import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import type { Meta, StoryObj } from '@storybook/react-webpack5';
 
 import { ${componentName} } from './${componentName}';
 
-export default {
-  title: '${layer}/${componentName}',
-  component: ${componentName},
-  argTypes: {
-      backgroundColor: { control: 'color' },
+const meta = {
+  title: 'shared/${NAME}',
+  component: ${NAME},
+} satisfies Meta<typeof ${NAME}>;
+
+export default meta;
+type Story = StoryObj<typeof meta>;
+
+export const Primary: Story = {
+  args: {
+
   },
-} as ComponentMeta<typeof ${componentName}>;
-
-const Template: ComponentStory<typeof ${componentName}> = (args) => <${componentName} {...args} />;
-
-export const Normal = Template.bind({});
-Normal.args = {
-   
 };`;

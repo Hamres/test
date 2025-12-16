@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
+import { Button } from '../Button/Button';
 
-import { Button } from 'shared/ui/Button/Button';
 import { Dropdown } from './Dropdown';
 
 const meta = {
