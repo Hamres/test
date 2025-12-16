@@ -16,7 +16,8 @@
     "storybook": "storybook dev -p 6006 -c ./config/storybook",
     "storybook:build": "storybook build -c ./config/storybook",
     "prepare": "husky install",
-    "ts:check": "tsc --noEmit"
+    "ts:check": "tsc --noEmit",
+    "generate:slice": "node ./scripts/createSlice/index.js"
   },
   "private": true,
   "keywords": [],
