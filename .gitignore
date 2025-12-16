@@ -4,6 +4,7 @@ node_modules
 *storybook.log
 storybook-static
 /storybook-static
+/reports
 
 # Playwright
 /test-results/
