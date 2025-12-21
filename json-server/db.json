@@ -877,6 +877,12 @@
       "userId": "1",
       "text": "1111",
       "id": "NK8TGFz"
+    },
+    {
+      "articleId": "6",
+      "userId": "1",
+      "text": "1111",
+      "id": "q0KkW-S"
     }
   ],
   "users": [
@@ -884,21 +890,27 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": ["ADMIN"],
+      "roles": [
+        "ADMIN"
+      ],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "roles": ["USER"],
+      "roles": [
+        "USER"
+      ],
       "avatar": "https://sectricity.com/wp-content/uploads/2023/05/Hacker-Cyber-Security-Internet-Sectricity.jpg"
     },
     {
       "id": "3",
       "username": "manager",
       "password": "123",
-      "roles": ["MANAGER"],
+      "roles": [
+        "MANAGER"
+      ],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     }
   ],
