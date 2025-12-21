@@ -1,6 +1,5 @@
-import { RouterDecorator } from './RouterDecorator/RouterDecorator';
-import { StoreDecorator } from './StoreDecorator/StoreDecorator';
-import { StyleDecorator } from './StyleDecorator/StyleDecorator';
-import { ThemeDecorator } from './ThemeDecorator/ThemeDecorator';
-
-export { ThemeDecorator, StyleDecorator, RouterDecorator, StoreDecorator };
+export { RouterDecorator } from './RouterDecorator/RouterDecorator';
+export { StoreDecorator } from './StoreDecorator/StoreDecorator';
+export { StyleDecorator } from './StyleDecorator/StyleDecorator';
+export { ThemeDecorator } from './ThemeDecorator/ThemeDecorator';
+export { SuspenseDecorator } from './SuspenseDecorator/SuspenseDecorator';

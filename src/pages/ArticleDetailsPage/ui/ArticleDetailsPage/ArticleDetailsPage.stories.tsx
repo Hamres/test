@@ -2,6 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react-webpack5';
 
 import { Article } from 'entities/Article';
 import { ArticleBlockType, ArticleType } from 'entities/Article/model/types/article';
+import { StoreDecorator } from 'shared/config/storybook';
 import ArticleDetailsPage from './ArticleDetailsPage';
 
 const article: Article = {
@@ -54,4 +55,27 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {},
+  decorators: [StoreDecorator({
+    articleDetails: {
+      data: article,
+    },
+  })],
+};
+
+export const Loading: Story = {
+  args: {},
+  decorators: [StoreDecorator({
+    articleDetails: {
+      isLoading: true,
+    },
+  })],
+};
+
+export const Error: Story = {
+  args: {},
+  decorators: [StoreDecorator({
+    articleDetails: {
+      error: 'error',
+    },
+  })],
 };

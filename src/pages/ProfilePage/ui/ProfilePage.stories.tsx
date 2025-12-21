@@ -17,7 +17,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Light: Story = {
   args: {},
-  decorators: [ThemeDecorator(Theme.DARK), StoreDecorator({
+  decorators: [ThemeDecorator(Theme.LIGHT), StoreDecorator({
     profile: {
       form: {
         username: 'admin',

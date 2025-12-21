@@ -2,6 +2,7 @@ import { Theme } from '../../src/app/providers/ThemeProvider';
 import {
   RouterDecorator,
   StyleDecorator,
+  SuspenseDecorator,
   ThemeDecorator,
 } from '../../src/shared/config/storybook';
 
@@ -15,7 +16,7 @@ const preview = {
       },
     },
   },
-  decorators: [StyleDecorator, ThemeDecorator(Theme.LIGHT), RouterDecorator],
+  decorators: [StyleDecorator, ThemeDecorator(Theme.LIGHT), RouterDecorator, SuspenseDecorator],
 };
 
 export default preview;

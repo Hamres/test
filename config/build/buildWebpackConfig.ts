@@ -18,7 +18,11 @@ export function buildWebpackConfig(options: BuildOptions): webpack.Configuration
       publicPath: '/',
     },
     stats: {
+      preset: 'errors-warnings',
       errorDetails: true,
+    },
+    infrastructureLogging: {
+      level: 'info',
     },
     plugins: buildPlugins(options),
     module: {
