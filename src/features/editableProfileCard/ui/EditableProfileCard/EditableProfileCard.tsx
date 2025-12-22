@@ -22,7 +22,7 @@ import { fetchProfileData } from '../../model/services/fetchProfileData/fetchPro
 import { getProfileLoading } from '../../model/selectors/getProfileLoading/getProfileLoading';
 import { getProfileReadonly } from '../../model/selectors/getProfileReadonly/getProfileReadonly';
 import { profileActions, profileReducer } from '../../model/slice/profileSlice';
-import { ValidateProfileError } from '../../model/types/editableProfileCardSchema';
+import { ValidateProfileError } from '../../model/consts/consts';
 
 interface EditableProfileCardProps {
   className?: string;

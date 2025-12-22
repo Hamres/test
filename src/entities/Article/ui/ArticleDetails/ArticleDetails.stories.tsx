@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
+import { ArticleBlockType, ArticleType } from '../../model/consts/articleConsts';
 
-import { StoreDecorator } from 'shared/config/storybook';
-import { ArticleBlockType, ArticleType, Article } from '../../model/types/article';
+import { Article } from '../../model/types/article';
 import { ArticleDetails } from './ArticleDetails';
 
 const meta = {
