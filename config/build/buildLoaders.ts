@@ -11,22 +11,23 @@ export function buildLoaders(options: BuildOptions): webpack.RuleSetRule[] {
     use: ['@svgr/webpack'],
   };
 
-  const babelLoader = buildBabelLoader(options);
+  const codeBabelLoader = buildBabelLoader({ ...options, isTsx: false });
+  const tsxCodeBabelLoader = buildBabelLoader({ ...options, isTsx: true });
 
   const cssLoader = buildCssLoaders(isDev);
 
-  const typescriptLoader = {
-    test: /\.tsx?$/,
-    use: [
-      {
-        loader: 'ts-loader',
-        options: {
-          transpileOnly: true, // если есть fork-ts-checker-webpack-plugin
-        },
-      },
-    ],
-    exclude: /node_modules/,
-  };
+  // const typescriptLoader = {
+  //   test: /\.tsx?$/,
+  //   use: [
+  //     {
+  //       loader: 'ts-loader',
+  //       options: {
+  //         transpileOnly: true, // если есть fork-ts-checker-webpack-plugin
+  //       },
+  //     },
+  //   ],
+  //   exclude: /node_modules/,
+  // };
 
   const fileLoader = {
     test: /\.(png|jpe?g|gif|woff|woff2)$/i,
@@ -40,8 +41,8 @@ export function buildLoaders(options: BuildOptions): webpack.RuleSetRule[] {
   return [
     fileLoader,
     svgLoader,
-    babelLoader,
-    typescriptLoader,
+    codeBabelLoader,
+    tsxCodeBabelLoader,
     cssLoader,
   ];
 }

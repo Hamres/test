@@ -12,6 +12,8 @@ export function buildDevServer(options: BuildOptions): DevServerConfiguration {
       stats: {
         preset: 'errors-warnings',
         errorDetails: true,
+        timings: true,
+        builtAt: true,
       },
     },
   };
