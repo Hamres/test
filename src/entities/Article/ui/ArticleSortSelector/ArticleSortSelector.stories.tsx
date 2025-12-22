@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
+import { ArticleSortField } from '../../model/consts/articleConsts';
 
 import { ArticleSortSelector } from './ArticleSortSelector';
 
@@ -11,5 +12,10 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
-  args: {},
+  args: {
+    order: 'asc',
+    sort: ArticleSortField.VIEWS,
+    onChangeOrder: () => {},
+    onChangeSort: () => {},
+  },
 };

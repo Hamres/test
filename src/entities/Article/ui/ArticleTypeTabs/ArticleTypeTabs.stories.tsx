@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
+import { ArticleType } from '../../model/consts/articleConsts';
 
 import { ArticleTypeTabs } from './ArticleTypeTabs';
 
@@ -11,5 +12,8 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
-  args: {},
+  args: {
+    value: ArticleType.ALL,
+    onChangeType: () => {},
+  },
 };

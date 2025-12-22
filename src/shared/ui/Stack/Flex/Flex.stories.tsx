@@ -12,6 +12,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Row: Story = {
   args: {
+    direction: 'column',
     children: (
       <>
         <div>first</div>
@@ -39,6 +40,7 @@ export const Column: Story = {
 
 export const RowGap4: Story = {
   args: {
+    direction: 'column',
     gap: '4',
     children: (
       <>
@@ -53,6 +55,7 @@ export const RowGap4: Story = {
 
 export const RowGap8: Story = {
   args: {
+    direction: 'column',
     gap: '8',
     children: (
       <>
@@ -67,6 +70,7 @@ export const RowGap8: Story = {
 
 export const RowGap16: Story = {
   args: {
+    direction: 'column',
     gap: '16',
     children: (
       <>
@@ -81,6 +85,7 @@ export const RowGap16: Story = {
 
 export const RowGap32: Story = {
   args: {
+    direction: 'column',
     gap: '32',
     children: (
       <>
