@@ -6,7 +6,6 @@ import { RoutePath } from 'shared/config/routeConfig/routeConfig';
 import { useDispatch, useSelector } from 'react-redux';
 import { getUserAuthData, isUserAdmin, isUserManager, userActions } from 'entities/User';
 import { Avatar } from 'shared/ui/Avatar/Avatar';
-import cls from './AvatarDropdown.module.scss';
 
 interface AvatarDropdownProps {
   className?: string;
@@ -32,7 +31,7 @@ export const AvatarDropdown = memo((props: AvatarDropdownProps) => {
 
   return (
     <Dropdown
-      className={classNames(cls.AvatarDropdown, {}, [className])}
+      className={classNames('', {}, [className])}
       direction="bottom left"
       items={[
         ...(isAdminPanelAvailable ? [{
