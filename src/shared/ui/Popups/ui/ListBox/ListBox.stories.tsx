@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
-
 import { ListBox } from './ListBox';
 
 const meta = {
