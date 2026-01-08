@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
 
-import { Article, ArticleType } from 'entities/Article';
-import { StoreDecorator } from 'shared/config/storybook';
-import { ArticleBlockType } from 'entities/Article/model/consts/articleConsts';
+import { Article, ArticleType } from '@/entities/Article';
+import { StoreDecorator } from '@/shared/config/storybook';
+import { ArticleBlockType } from '@/entities/Article/model/consts/articleConsts';
 import ArticleDetailsPage from './ArticleDetailsPage';
 
 const article: Article = {

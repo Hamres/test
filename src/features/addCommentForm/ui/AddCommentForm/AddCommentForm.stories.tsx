@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
 
 import { action } from 'storybook/actions';
-import { StoreDecorator } from 'shared/config/storybook';
+import { StoreDecorator } from '@/shared/config/storybook';
 import AddCommentForm from './AddCommentForm';
 
 const meta = {

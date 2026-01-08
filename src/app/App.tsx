@@ -1,10 +1,10 @@
 import React, { Suspense, useEffect } from 'react';
-import { classNames } from 'shared/lib/classNames/classNames';
-import { AppRouter } from 'app/providers/router';
-import { Navbar } from 'widgets/Navbar';
-import { Sidebar } from 'widgets/Sidebar';
 import { useDispatch, useSelector } from 'react-redux';
-import { getUserInited, userActions } from 'entities/User';
+import { classNames } from '@/shared/lib/classNames/classNames';
+import { AppRouter } from '@/app/providers/router';
+import { Navbar } from '@/widgets/Navbar';
+import { Sidebar } from '@/widgets/Sidebar';
+import { getUserInited, userActions } from '@/entities/User';
 
 function App() {
   const dispatch = useDispatch();
@@ -29,4 +29,4 @@ function App() {
 
 export default App;
 
-/// ///////////--- 12 --- 80 просмотрено
+/// ///////////--- 12 --- 82 просмотрено

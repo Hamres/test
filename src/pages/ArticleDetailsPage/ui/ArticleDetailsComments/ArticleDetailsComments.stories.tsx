@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
 
-import { StoreDecorator } from 'shared/config/storybook';
+import { StoreDecorator } from '@/shared/config/storybook';
 import { ArticleDetailsComments } from './ArticleDetailsComments';
 
 const meta = {
