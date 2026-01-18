@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react-webpack5';
 import { RatingCard } from './RatingCard';
 
 const meta = {
-  title: 'shared/RatingCard',
+  title: 'entities/Rating/RatingCard',
   component: RatingCard,
 } satisfies Meta<typeof RatingCard>;
 

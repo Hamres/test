@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react-webpack5';
 import { Popover } from './Popover';
 
 const meta = {
-  title: 'shared/Popover',
+  title: 'shared/Popups/Popover',
   component: Popover,
 } satisfies Meta<typeof Popover>;
 

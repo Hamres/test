@@ -4,7 +4,7 @@ import { Button } from '../../../Button/Button';
 import { Dropdown } from './Dropdown';
 
 const meta = {
-  title: 'shared/Dropdown',
+  title: 'shared/Popups/Dropdown',
   component: Dropdown,
 } satisfies Meta<typeof Dropdown>;
 
