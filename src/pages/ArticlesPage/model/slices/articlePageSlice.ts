@@ -39,12 +39,6 @@ const articlePageSlice = createSlice({
     setPage: (state, action: PayloadAction<number>) => {
       state.page = action.payload;
     },
-    initState: (state) => {
-      const view = localStorage.getItem(ARTICLES_VIEW_LOCALSTORAGE_KEY) as ArticleView;
-      state.view = view;
-      state.limit = view === ArticleView.BIG ? 4 : 13;
-      state._inited = true;
-    },
     setOrder: (state, action: PayloadAction<SortOrder>) => {
       state.order = action.payload;
     },
@@ -56,6 +50,12 @@ const articlePageSlice = createSlice({
     },
     setType: (state, action: PayloadAction<ArticleType>) => {
       state.type = action.payload;
+    },
+    initState: (state) => {
+      const view = localStorage.getItem(ARTICLES_VIEW_LOCALSTORAGE_KEY) as ArticleView;
+      state.view = view ?? ArticleView.SMALL;
+      state.limit = state.view === ArticleView.BIG ? 4 : 13;
+      state._inited = true;
     },
   },
   extraReducers: (builder) => {
