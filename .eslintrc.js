@@ -72,6 +72,7 @@ module.exports = {
     'react/no-array-index-key': 'off',
     'arrow-body-style': 'off',
     'test-eslint-plugin-v1/path-checker': ['error', { alias: '@' }],
+    'test-eslint-plugin-v1/public-api-imports': ['error', { alias: '@' }],
   },
   globals: {
     __IS_DEV__: true,
