@@ -1,10 +1,10 @@
-import { Theme } from '../../src/app/providers/ThemeProvider';
 import {
   RouterDecorator,
   StyleDecorator,
   SuspenseDecorator,
   ThemeDecorator,
 } from '../../src/shared/config/storybook';
+import { Theme } from '@';
 
 /** @type { import('@storybook/react-webpack5').Preview } */
 const preview = {

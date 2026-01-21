@@ -72,6 +72,13 @@ module.exports = {
     'react/no-array-index-key': 'off',
     'arrow-body-style': 'off',
     'test-eslint-plugin-v1/path-checker': ['error', { alias: '@' }],
+    'test-eslint-plugin-v1/layer-imports': [
+      'error',
+      {
+        alias: '@',
+        ignoreImportPatterns: ['**/StoreProvider', '**/testing'],
+      },
+    ],
     'test-eslint-plugin-v1/public-api-imports': [
       'error',
       {

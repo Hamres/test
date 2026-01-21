@@ -1,10 +1,10 @@
 import React, { memo, ReactNode, useCallback, useEffect } from 'react';
-import { useTheme } from '@/app/providers/ThemeProvider';
 import { classNames } from '@/shared/lib/classNames/classNames';
 import { AnimationProvider, useAnimationLibs } from '@/shared/lib/components/AnimationProvider';
 import { Portal } from '../../ui/Portal/Portal';
 import cls from './Drawer.module.scss';
 import { Overlay } from '../Overlay/Overlay';
+import { useTheme } from '@/shared/lib/hooks/useTheme/useTheme';
 
 interface DrawerProps {
   className?: string
@@ -17,7 +17,7 @@ interface DrawerProps {
 const height = window.innerHeight - 100;
 
 export const DrawerContent = memo((props: DrawerProps) => {
-  const { children, onClose, isOpen, className, lazy } = props;
+  const { children, onClose, isOpen, className } = props;
   const { theme } = useTheme();
   const { Gesture, Spring } = useAnimationLibs();
 
