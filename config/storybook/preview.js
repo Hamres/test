@@ -4,7 +4,7 @@ import {
   SuspenseDecorator,
   ThemeDecorator,
 } from '../../src/shared/config/storybook';
-import { Theme } from '@';
+import { Theme } from '../../src/shared/const/theme';
 
 /** @type { import('@storybook/react-webpack5').Preview } */
 const preview = {
@@ -15,6 +15,7 @@ const preview = {
         date: /Date$/i,
       },
     },
+    layout: 'fullscreen',
   },
   decorators: [StyleDecorator, ThemeDecorator(Theme.LIGHT), RouterDecorator, SuspenseDecorator],
 };
