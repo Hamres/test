@@ -3,8 +3,8 @@ import { memo } from 'react';
 import { classNames } from '@/shared/lib/classNames/classNames';
 import SmallIcon from '@/shared/assets/icons/tripalki.svg';
 import BigIcon from '@/shared/assets/icons/kvadrat.svg';
-import { Button, ButtonTheme } from '@/shared/ui/Button/Button';
-import { Icon } from '@/shared/ui/Icon/Icon';
+import { Button, ButtonTheme } from '@/shared/ui/Button';
+import { Icon } from '@/shared/ui/Icon';
 import cls from './ArticleViewSelector.module.scss';
 import { ArticleView } from '../../model/consts/articleConsts';
 
