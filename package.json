@@ -36,6 +36,7 @@
     "@playwright/test": "^1.54.1",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
     "@storybook/addon-docs": "^9.0.18",
+    "@storybook/addon-themes": "^9.0.18",
     "@storybook/addon-webpack5-compiler-swc": "^3.0.0",
     "@storybook/react-webpack5": "^9.0.18",
     "@svgr/webpack": "^6.2.1",

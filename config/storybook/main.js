@@ -7,6 +7,7 @@ const config = {
     '@storybook/addon-webpack5-compiler-swc',
     '@storybook/addon-docs',
     'storybook-addon-mock/register',
+    '@storybook/addon-themes',
   ],
   framework: {
     name: '@storybook/react-webpack5',
