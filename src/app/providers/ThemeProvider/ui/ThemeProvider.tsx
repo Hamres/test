@@ -1,30 +1,29 @@
-import React, { ReactNode, useMemo, useState } from 'react';
-import { ThemeContext } from '../../../../shared/lib/context/ThemeContext';
+// shared/providers/ThemeProvider.tsx
+import React, { ReactNode, useEffect, useMemo, useState } from 'react';
 import { Theme } from '@/shared/const/theme';
 import { LOCAL_STORAGE_THEME_KEY } from '@/shared/const/localstorage';
+import { ThemeContext } from '@/shared/lib/context/ThemeContext';
 
-const defaultTheme = localStorage.getItem(LOCAL_STORAGE_THEME_KEY) as Theme || Theme.LIGHT;
+const getInitialTheme = (): Theme => {
+  const saved = localStorage.getItem(LOCAL_STORAGE_THEME_KEY);
+  return (saved as Theme) || Theme.LIGHT;
+};
 
-interface ThemeProviderProps {
-  initialTheme?: Theme
-  children: ReactNode
-}
+export const ThemeProvider = ({ children }: { children: ReactNode }) => {
+  const [theme, setTheme] = useState<Theme>(getInitialTheme());
 
-const ThemeProvider = (props: ThemeProviderProps) => {
-  const { children, initialTheme } = props;
+  // Эффект: синхронизация DOM и localStorage
+  useEffect(() => {
+    document.body.classList.remove(Theme.LIGHT, Theme.DARK, Theme.ORANGE);
+    document.body.classList.add(theme);
+    localStorage.setItem(LOCAL_STORAGE_THEME_KEY, theme);
+  }, [theme]);
 
-  const [theme, setTheme] = useState<Theme>(initialTheme || defaultTheme);
-
-  const defaultProps = useMemo(() => ({
-    theme,
-    setTheme,
-  }), [theme]);
+  const value = useMemo(() => ({ theme, setTheme }), [theme]);
 
   return (
-    <ThemeContext.Provider value={defaultProps}>
+    <ThemeContext.Provider value={value}>
       {children}
     </ThemeContext.Provider>
   );
 };
-
-export default ThemeProvider;

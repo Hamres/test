@@ -4,7 +4,7 @@ import { Theme } from '@/shared/const/theme';
 import { ThemeProvider } from '@/app/providers/ThemeProvider';
 
 export const ThemeDecorator = (theme: Theme): Decorator => (story) => (
-  <ThemeProvider initialTheme={theme}>
+  <ThemeProvider>
     <div className={`app ${theme}`}>
       {story()}
     </div>
