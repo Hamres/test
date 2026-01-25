@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
-import { ArticleView } from '../../model/consts/articleConsts';
 
 import { ArticleViewSelector } from './ArticleViewSelector';
+import { ArticleView } from '@/entities/Article';
 
 const meta = {
   title: 'entities/Article/ArticleViewSelector',
