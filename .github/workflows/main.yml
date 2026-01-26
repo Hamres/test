@@ -86,8 +86,20 @@ jobs:
 
       - name: Unit testing
         id: unit-tests
-        run: npm run test:unit:ci
-        continue-on-error: true
+        run: |
+          npm run test:unit:ci
+          if [ ! -d "reports/unit" ]; then
+            echo "Отчёты не сгенерированы!"
+            exit 1
+          fi
+
+      - name: Publish Test Report
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: test-report
+          path: reports/unit/report.html
+          retention-days: 7
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
