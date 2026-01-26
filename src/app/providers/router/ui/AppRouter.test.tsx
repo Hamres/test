@@ -60,6 +60,7 @@ describe('app/router/AppRouter', () => {
       route: getRouteAdmin(),
       initialState: {
         user: { _inited: true, authData: { } },
+        // roles: [UserRole.ADMIN] }
       },
     });
 
