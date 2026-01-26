@@ -16,19 +16,6 @@ export function buildLoaders(options: BuildOptions): webpack.RuleSetRule[] {
 
   const cssLoader = buildCssLoaders(isDev);
 
-  // const typescriptLoader = {
-  //   test: /\.tsx?$/,
-  //   use: [
-  //     {
-  //       loader: 'ts-loader',
-  //       options: {
-  //         transpileOnly: true, // если есть fork-ts-checker-webpack-plugin
-  //       },
-  //     },
-  //   ],
-  //   exclude: /node_modules/,
-  // };
-
   const fileLoader = {
     test: /\.(png|jpe?g|gif|woff|woff2)$/i,
     use: [
