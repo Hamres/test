@@ -109,14 +109,16 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         if: always()
         with:
-          path: 'reports'
+          name: github-pages
+          path: reports/
+          retention-days: 30
 
       - name: Deploy to GitHub Pages
         id: deployment
         if: always()
         uses: actions/deploy-pages@v4
         with:
-          folder: 'reports'
+          artifact_name: 'github-pages'
 
   checks:
     runs-on: ubuntu-latest
