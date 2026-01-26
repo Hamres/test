@@ -115,6 +115,8 @@ jobs:
         id: deployment
         if: always()
         uses: actions/deploy-pages@v4
+        with:
+          folder: 'reports'
 
   checks:
     runs-on: ubuntu-latest
