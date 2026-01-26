@@ -2,6 +2,7 @@ import { screen } from '@testing-library/react';
 import AppRouter from './AppRouter';
 import { getRouteAbout, getRouteAdmin, getRouteProfile } from '@/shared/const/router';
 import { componentRender } from '@/shared/lib/tests/componentRender/componentRender';
+import { UserRole } from '@/entities/User';
 
 describe('app/router/AppRouter', () => {
   test('Страница должна отрендериться', async () => {
@@ -59,8 +60,7 @@ describe('app/router/AppRouter', () => {
     componentRender(<AppRouter />, {
       route: getRouteAdmin(),
       initialState: {
-        user: { _inited: true, authData: { } },
-        // roles: [UserRole.ADMIN] }
+        user: { _inited: true, authData: { roles: [UserRole.ADMIN] } },
       },
     });
 
