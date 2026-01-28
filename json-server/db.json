@@ -934,6 +934,15 @@
         "MANAGER"
       ],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
+    },
+    {
+      "id": "4",
+      "username": "testuser",
+      "password": "123",
+      "roles": [
+        "ADMIN"
+      ],
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     }
   ],
   "profile": [
