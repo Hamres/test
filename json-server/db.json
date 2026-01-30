@@ -777,6 +777,84 @@
           ]
         }
       ]
+    },
+    {
+      "title": "shest",
+      "subtitle": "Что нового в python за 2035 год?",
+      "img": "https://i.pinimg.com/736x/39/52/12/395212ac9c8778170bdf0d337373090b.jpg",
+      "views": 10000,
+      "createdAt": "12.02.2030",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "8Kx_STR"
+    },
+    {
+      "title": "shest",
+      "subtitle": "Что нового в python за 2035 год?",
+      "img": "https://i.pinimg.com/736x/39/52/12/395212ac9c8778170bdf0d337373090b.jpg",
+      "views": 10000,
+      "createdAt": "12.02.2030",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "gTC9rfl"
+    },
+    {
+      "title": "TESTING ARTICLE",
+      "subtitle": "Что нового в python за 2035 год?",
+      "img": "https://i.pinimg.com/736x/39/52/12/395212ac9c8778170bdf0d337373090b.jpg",
+      "views": 10000,
+      "createdAt": "12.02.2030",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "DwRB07C"
+    },
+    {
+      "title": "TESTING ARTICLE",
+      "subtitle": "Что нового в python за 2035 год?",
+      "img": "https://i.pinimg.com/736x/39/52/12/395212ac9c8778170bdf0d337373090b.jpg",
+      "views": 10000,
+      "createdAt": "12.02.2030",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "7XPIlfb"
+    },
+    {
+      "title": "TESTING ARTICLE",
+      "id": "66666666666666",
+      "subtitle": "Что нового в python за 2035 год?",
+      "img": "https://i.pinimg.com/736x/39/52/12/395212ac9c8778170bdf0d337373090b.jpg",
+      "views": 10000,
+      "createdAt": "12.02.2030",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": []
+    },
+    {
+      "title": "TESTING ARTICLE",
+      "subtitle": "Что нового в python за 2035 год?",
+      "img": "https://i.pinimg.com/736x/39/52/12/395212ac9c8778170bdf0d337373090b.jpg",
+      "views": 10000,
+      "createdAt": "12.02.2030",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "RStSJ8C"
     }
   ],
   "comments": [
@@ -905,6 +983,12 @@
       "userId": "1",
       "text": "1111",
       "id": "q0KkW-S"
+    },
+    {
+      "articleId": "13",
+      "userId": "1",
+      "text": "цукц3кцк3",
+      "id": "c6brOKH"
     }
   ],
   "users": [
@@ -966,6 +1050,17 @@
       "country": "Russia",
       "city": "Kazan",
       "username": "patris",
+      "avatar": "https://sectricity.com/wp-content/uploads/2023/05/Hacker-Cyber-Security-Internet-Sectricity.jpg"
+    },
+    {
+      "id": "4",
+      "firstname": "test",
+      "lastname": "user",
+      "age": 1,
+      "currency": "EUR",
+      "country": "Russia",
+      "city": "Moscow",
+      "username": "testuser",
       "avatar": "https://sectricity.com/wp-content/uploads/2023/05/Hacker-Cyber-Security-Internet-Sectricity.jpg"
     }
   ],
