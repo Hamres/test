@@ -12,18 +12,18 @@ import { Profile } from '../../model/types/profile';
 
 interface ProfileCardProps {
   className?: string;
-  data?: Profile
-  error?: string
-  isLoading?: boolean
-  readonly?: boolean
-  onChangeFirstname?: (value: string) => void
-  onChangeLastname?: (value: string) => void
-  onChangeCity?: (value: string) => void
-  onChangeAge?: (value: string) => void
-  onChangeUsername?: (value: string) => void
-  onChangeAvatar?: (value: string) => void
-  onChangeCurrency?: (currency: Currency) => void
-  onChangeCountry?: (country: Country) => void
+  data?: Profile;
+  error?: string;
+  isLoading?: boolean;
+  readonly?: boolean;
+  onChangeFirstname?: (value: string) => void;
+  onChangeLastname?: (value: string) => void;
+  onChangeCity?: (value: string) => void;
+  onChangeAge?: (value: string) => void;
+  onChangeUsername?: (value: string) => void;
+  onChangeAvatar?: (value: string) => void;
+  onChangeCurrency?: (currency: Currency) => void;
+  onChangeCountry?: (country: Country) => void;
 }
 
 export const ProfileCard = (props: ProfileCardProps) => {
@@ -46,7 +46,13 @@ export const ProfileCard = (props: ProfileCardProps) => {
 
   if (isLoading) {
     return (
-      <HStack justify="center" max className={classNames(cls.ProfileCard, { [cls.loading]: true }, [className])}>
+      <HStack
+        justify="center"
+        max
+        className={classNames(cls.ProfileCard, { [cls.loading]: true }, [
+          className,
+        ])}
+      >
         <Loader />
       </HStack>
     );
@@ -54,7 +60,10 @@ export const ProfileCard = (props: ProfileCardProps) => {
 
   if (error) {
     return (
-      <HStack justify="center" className={classNames(cls.ProfileCard, {}, [className, cls.error])}>
+      <HStack
+        justify="center"
+        className={classNames(cls.ProfileCard, {}, [className, cls.error])}
+      >
         <Text
           theme={TextTheme.ERROR}
           title={t('Произошла ошибка при загрузке страницы')}
@@ -70,7 +79,11 @@ export const ProfileCard = (props: ProfileCardProps) => {
   };
 
   return (
-    <VStack gap="8" max className={classNames(cls.ProfileCard, mods, [className])}>
+    <VStack
+      gap="8"
+      max
+      className={classNames(cls.ProfileCard, mods, [className])}
+    >
       {data?.avatar && (
         <HStack justify="center" max className={cls.avatarWrapper}>
           <Avatar src={data?.avatar} />

@@ -7,15 +7,19 @@ import { ArticleCodeBlock } from '../../model/types/article';
 
 interface ArticleCodeBlockComponentProps {
   className?: string;
-  block: ArticleCodeBlock
+  block: ArticleCodeBlock;
 }
 
-export const ArticleCodeBlockComponent = memo((props: ArticleCodeBlockComponentProps) => {
-  const { t } = useTranslation();
-  const { className, block } = props;
-  return (
-    <div className={classNames(cls.ArticleCodeBlockComponent, {}, [className])}>
-      <Code text={block.code} />
-    </div>
-  );
-});
+export const ArticleCodeBlockComponent = memo(
+  (props: ArticleCodeBlockComponentProps) => {
+    const { t } = useTranslation();
+    const { className, block } = props;
+    return (
+      <div
+        className={classNames(cls.ArticleCodeBlockComponent, {}, [className])}
+      >
+        <Code text={block.code} />
+      </div>
+    );
+  },
+);

@@ -6,9 +6,9 @@ import { Icon } from '../Icon/Icon';
 
 interface StarRatingProps {
   className?: string;
-  onSelect?: (starsCount: number) => void
-  size?: number
-  selectedStars?: number
+  onSelect?: (starsCount: number) => void;
+  size?: number;
+  selectedStars?: number;
 }
 
 const stars = [1, 2, 3, 4, 5];

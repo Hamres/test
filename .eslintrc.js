@@ -9,6 +9,7 @@ module.exports = {
     'airbnb',
     'plugin:i18next/recommended',
     'plugin:storybook/recommended',
+    'plugin:prettier/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -27,12 +28,10 @@ module.exports = {
     'unused-imports',
   ],
   rules: {
-    'react/jsx-indent': [2, 2],
-    'react/jsx-indent-props': [2, 2],
     'unused-imports/no-unused-imports': 'error',
-    indent: [2, 2],
     'react/jsx-filename-extension': [
-      2, { extensions: ['.js', '.jsx', '.tsx'] },
+      2,
+      { extensions: ['.js', '.jsx', '.tsx'] },
     ],
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
@@ -46,8 +45,10 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'no-underscore-dangle': 'off',
-    'i18next/no-literal-string': ['error',
-      { markupOnly: true,
+    'i18next/no-literal-string': [
+      'error',
+      {
+        markupOnly: true,
         ignoreAttribute: [
           'to',
           'className',
@@ -62,7 +63,9 @@ module.exports = {
           'role',
           'as',
           'border',
-        ] }],
+        ],
+      },
+    ],
     'max-len': ['error', { ignoreComments: true, code: 125 }],
     'object-curly-newline': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
@@ -85,9 +88,14 @@ module.exports = {
       'error',
       {
         alias: '@',
-        testFilesPatterns: ['**/*.test.*', '**/*.story.*', '**/StoreDecorator.tsx'],
+        testFilesPatterns: [
+          '**/*.test.*',
+          '**/*.story.*',
+          '**/StoreDecorator.tsx',
+        ],
       },
     ],
+    'react/jsx-max-props-per-line': ['error', { maximum: 4 }],
   },
   globals: {
     __IS_DEV__: true,

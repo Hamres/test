@@ -12,15 +12,15 @@ import { ThemeProvider } from '@/app/providers/ThemeProvider';
 import '@/app/styles/index.scss';
 
 export interface componentRouterOptions {
-  route?: string
-  initialState?: DeepPartial<StateSchema>
-  asyncReducers?: DeepPartial<ReducersMapObject<StateSchema>>
-  theme?: Theme
+  route?: string;
+  initialState?: DeepPartial<StateSchema>;
+  asyncReducers?: DeepPartial<ReducersMapObject<StateSchema>>;
+  theme?: Theme;
 }
 
 interface TestProviderProps {
-  children?: ReactNode
-  options?: componentRouterOptions
+  children?: ReactNode;
+  options?: componentRouterOptions;
 }
 
 export function TestProvider(props: TestProviderProps) {
@@ -37,16 +37,16 @@ export function TestProvider(props: TestProviderProps) {
     <MemoryRouter initialEntries={[route]}>
       <StoreProvider asyncReducers={asyncReducers} initialState={initialState}>
         <I18nextProvider i18n={i18nForTests}>
-          <ThemeProvider>
-            {children}
-
-          </ThemeProvider>
+          <ThemeProvider>{children}</ThemeProvider>
         </I18nextProvider>
       </StoreProvider>
     </MemoryRouter>
   );
 }
 
-export function componentRender(component: ReactNode, options: componentRouterOptions = {}) {
+export function componentRender(
+  component: ReactNode,
+  options: componentRouterOptions = {},
+) {
   return render(<TestProvider options={options}>{component}</TestProvider>);
 }

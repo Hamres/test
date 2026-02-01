@@ -1,7 +1,9 @@
 import { test, expect } from '@playwright/test';
 
 test('Sidebar visual: light expanded and collapsed', async ({ page }) => {
-  await page.goto('http://localhost:6006/iframe.html?viewMode=story&id=widget-sidebar--light');
+  await page.goto(
+    'http://localhost:6006/iframe.html?viewMode=story&id=widget-sidebar--light',
+  );
 
   const sidebar = page.locator('[data-testid="sidebar"]');
   const toggle = page.locator('[data-testid="sidebar-toggle"]');

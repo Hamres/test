@@ -5,9 +5,9 @@ import { Country } from '../../model/types/country';
 
 interface CountrySelectProps {
   className?: string;
-  value?: Country
-  onChange?: (value: Country) => void
-  readonly?: boolean
+  value?: Country;
+  onChange?: (value: Country) => void;
+  readonly?: boolean;
 }
 
 const options = [
@@ -22,9 +22,12 @@ export const CountrySelect = memo((props: CountrySelectProps) => {
   const { t } = useTranslation();
   const { className, value, onChange, readonly } = props;
 
-  const onChangeHandler = useCallback((value: string) => {
-    onChange?.(value as Country);
-  }, [onChange]);
+  const onChangeHandler = useCallback(
+    (value: string) => {
+      onChange?.(value as Country);
+    },
+    [onChange],
+  );
 
   return (
     <ListBox

@@ -1,6 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react-webpack5';
 import { StoreDecorator } from '@/shared/config/storybook/StoreDecorator/StoreDecorator';
-import { ArticleBlockType, ArticleType } from '../../model/consts/articleConsts';
+import {
+  ArticleBlockType,
+  ArticleType,
+} from '../../model/consts/articleConsts';
 
 import { Article } from '../../model/types/article';
 import { ArticleDetails } from './ArticleDetails';
@@ -55,27 +58,33 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {},
-  decorators: [StoreDecorator({
-    articleDetails: {
-      data: article,
-    },
-  })],
+  decorators: [
+    StoreDecorator({
+      articleDetails: {
+        data: article,
+      },
+    }),
+  ],
 };
 
 export const Loading: Story = {
   args: {},
-  decorators: [StoreDecorator({
-    articleDetails: {
-      isLoading: true,
-    },
-  })],
+  decorators: [
+    StoreDecorator({
+      articleDetails: {
+        isLoading: true,
+      },
+    }),
+  ],
 };
 
 export const Error: Story = {
   args: {},
-  decorators: [StoreDecorator({
-    articleDetails: {
-      error: 'error',
-    },
-  })],
+  decorators: [
+    StoreDecorator({
+      articleDetails: {
+        error: 'error',
+      },
+    }),
+  ],
 };

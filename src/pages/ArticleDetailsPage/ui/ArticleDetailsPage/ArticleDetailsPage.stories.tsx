@@ -54,27 +54,33 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {},
-  decorators: [StoreDecorator({
-    articleDetails: {
-      data: article,
-    },
-  })],
+  decorators: [
+    StoreDecorator({
+      articleDetails: {
+        data: article,
+      },
+    }),
+  ],
 };
 
 export const Loading: Story = {
   args: {},
-  decorators: [StoreDecorator({
-    articleDetails: {
-      isLoading: true,
-    },
-  })],
+  decorators: [
+    StoreDecorator({
+      articleDetails: {
+        isLoading: true,
+      },
+    }),
+  ],
 };
 
 export const Error: Story = {
   args: {},
-  decorators: [StoreDecorator({
-    articleDetails: {
-      error: 'error',
-    },
-  })],
+  decorators: [
+    StoreDecorator({
+      articleDetails: {
+        error: 'error',
+      },
+    }),
+  ],
 };

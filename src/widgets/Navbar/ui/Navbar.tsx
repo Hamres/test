@@ -14,7 +14,7 @@ import cls from './Navbar.module.scss';
 import { getRouteArticleCreate } from '@/shared/const/router';
 
 interface NavbarProps {
-  className?: string
+  className?: string;
 }
 
 export const Navbar = memo(({ className }: NavbarProps) => {
@@ -33,7 +33,11 @@ export const Navbar = memo(({ className }: NavbarProps) => {
   if (authData) {
     return (
       <header className={classNames(cls.Navbar, {}, [className])}>
-        <Text className={cls.appName} title={t('test App')} theme={TextTheme.INVERTED} />
+        <Text
+          className={cls.appName}
+          title={t('test App')}
+          theme={TextTheme.INVERTED}
+        />
         <AppLink
           to={getRouteArticleCreate()}
           theme={AppLinkTheme.SECONDARY}
@@ -59,10 +63,7 @@ export const Navbar = memo(({ className }: NavbarProps) => {
         {t('Войти')}
       </Button>
       {isAuthModal && (
-        <LoginModal
-          isOpen={isAuthModal}
-          onClose={onCloseModal}
-        />
+        <LoginModal isOpen={isAuthModal} onClose={onCloseModal} />
       )}
     </header>
   );

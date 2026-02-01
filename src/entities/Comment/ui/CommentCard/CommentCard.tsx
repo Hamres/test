@@ -11,8 +11,8 @@ import { getRouteProfile } from '@/shared/const/router';
 
 interface CommentCardProps {
   className?: string;
-  comment?: Comment
-  isLoading?: boolean
+  comment?: Comment;
+  isLoading?: boolean;
 }
 
 export const CommentCard = memo((props: CommentCardProps) => {
@@ -40,9 +40,16 @@ export const CommentCard = memo((props: CommentCardProps) => {
   }
 
   return (
-    <VStack gap="8" max className={classNames(cls.CommentCard, {}, [className])} data-testid="CommentCard.Content">
+    <VStack
+      gap="8"
+      max
+      className={classNames(cls.CommentCard, {}, [className])}
+      data-testid="CommentCard.Content"
+    >
       <AppLink to={getRouteProfile(comment.user.id)} className={cls.header}>
-        {comment.user.avatar ? <Avatar size={30} src={comment.user.avatar} /> : null}
+        {comment.user.avatar ? (
+          <Avatar size={30} src={comment.user.avatar} />
+        ) : null}
         <Text className={cls.username} title={comment.user.username} />
       </AppLink>
       <Text className={cls.text} text={comment.text} />

@@ -7,9 +7,7 @@
     "views": 1022000,
     "createdAt": "12.02.2030",
     "userId": "1",
-    "type": [
-      "IT"
-    ],
+    "type": ["IT"],
     "blocks": [
       {
         "id": "1",
@@ -26,9 +24,7 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": [
-        "ADMIN"
-      ],
+      "roles": ["ADMIN"],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     }
   },
@@ -40,9 +36,7 @@
     "views": 1022000,
     "createdAt": "12.02.2030",
     "userId": "1",
-    "type": [
-      "IT"
-    ],
+    "type": ["IT"],
     "blocks": [
       {
         "id": "1",
@@ -59,9 +53,7 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": [
-        "ADMIN"
-      ],
+      "roles": ["ADMIN"],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     }
   },
@@ -73,9 +65,7 @@
     "views": 10000,
     "createdAt": "12.02.2030",
     "userId": "1",
-    "type": [
-      "IT"
-    ],
+    "type": ["IT"],
     "blocks": [
       {
         "id": "1",
@@ -92,9 +82,7 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": [
-        "ADMIN"
-      ],
+      "roles": ["ADMIN"],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     }
   },
@@ -106,9 +94,7 @@
     "views": 6666,
     "createdAt": "12.02.2030",
     "userId": "1",
-    "type": [
-      "IT"
-    ],
+    "type": ["IT"],
     "blocks": [
       {
         "id": "1",
@@ -125,9 +111,7 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": [
-        "ADMIN"
-      ],
+      "roles": ["ADMIN"],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     }
   },
@@ -139,9 +123,7 @@
     "views": 111,
     "createdAt": "12.02.2030",
     "userId": "1",
-    "type": [
-      "IT"
-    ],
+    "type": ["IT"],
     "blocks": [
       {
         "id": "1",
@@ -158,9 +140,7 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": [
-        "ADMIN"
-      ],
+      "roles": ["ADMIN"],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     }
   },
@@ -172,9 +152,7 @@
     "views": 1022000,
     "createdAt": "12.02.2030",
     "userId": "1",
-    "type": [
-      "IT"
-    ],
+    "type": ["IT"],
     "blocks": [
       {
         "id": "1",
@@ -191,9 +169,7 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": [
-        "ADMIN"
-      ],
+      "roles": ["ADMIN"],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     }
   },
@@ -205,9 +181,7 @@
     "views": 1022000,
     "createdAt": "12.02.2030",
     "userId": "1",
-    "type": [
-      "IT"
-    ],
+    "type": ["IT"],
     "blocks": [
       {
         "id": "1",
@@ -224,9 +198,7 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": [
-        "ADMIN"
-      ],
+      "roles": ["ADMIN"],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     }
   },
@@ -238,9 +210,7 @@
     "views": 1022000,
     "createdAt": "12.02.2030",
     "userId": "1",
-    "type": [
-      "IT"
-    ],
+    "type": ["IT"],
     "blocks": [
       {
         "id": "1",
@@ -257,9 +227,7 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": [
-        "ADMIN"
-      ],
+      "roles": ["ADMIN"],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     }
   },
@@ -271,9 +239,7 @@
     "views": 1022000,
     "createdAt": "12.02.2030",
     "userId": "1",
-    "type": [
-      "IT"
-    ],
+    "type": ["IT"],
     "blocks": [
       {
         "id": "1",
@@ -290,9 +256,7 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": [
-        "ADMIN"
-      ],
+      "roles": ["ADMIN"],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     }
   },
@@ -303,18 +267,14 @@
     "views": 10000,
     "createdAt": "12.02.2030",
     "userId": "1",
-    "type": [
-      "IT"
-    ],
+    "type": ["IT"],
     "blocks": [],
     "id": "8Kx_STR",
     "user": {
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": [
-        "ADMIN"
-      ],
+      "roles": ["ADMIN"],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     }
   },
@@ -325,18 +285,14 @@
     "views": 10000,
     "createdAt": "12.02.2030",
     "userId": "1",
-    "type": [
-      "IT"
-    ],
+    "type": ["IT"],
     "blocks": [],
     "id": "gTC9rfl",
     "user": {
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": [
-        "ADMIN"
-      ],
+      "roles": ["ADMIN"],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     }
   },
@@ -347,18 +303,14 @@
     "views": 10000,
     "createdAt": "12.02.2030",
     "userId": "1",
-    "type": [
-      "IT"
-    ],
+    "type": ["IT"],
     "blocks": [],
     "id": "DwRB07C",
     "user": {
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": [
-        "ADMIN"
-      ],
+      "roles": ["ADMIN"],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     }
   },
@@ -369,18 +321,14 @@
     "views": 10000,
     "createdAt": "12.02.2030",
     "userId": "1",
-    "type": [
-      "IT"
-    ],
+    "type": ["IT"],
     "blocks": [],
     "id": "7XPIlfb",
     "user": {
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": [
-        "ADMIN"
-      ],
+      "roles": ["ADMIN"],
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
     }
   }

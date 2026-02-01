@@ -17,17 +17,17 @@ export function useTheme(): UseThemeResult {
 
     let newTheme: Theme;
     switch (currentTheme) {
-    case Theme.LIGHT:
-      newTheme = Theme.ORANGE;
-      break;
-    case Theme.ORANGE:
-      newTheme = Theme.DARK;
-      break;
-    case Theme.DARK:
-      newTheme = Theme.LIGHT;
-      break;
-    default:
-      newTheme = Theme.LIGHT;
+      case Theme.LIGHT:
+        newTheme = Theme.ORANGE;
+        break;
+      case Theme.ORANGE:
+        newTheme = Theme.DARK;
+        break;
+      case Theme.DARK:
+        newTheme = Theme.LIGHT;
+        break;
+      default:
+        newTheme = Theme.LIGHT;
     }
 
     // Проверка на существование setTheme

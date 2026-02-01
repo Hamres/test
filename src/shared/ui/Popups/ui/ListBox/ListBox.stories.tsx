@@ -5,7 +5,11 @@ const meta = {
   title: 'shared/Popups/ListBox',
   component: ListBox,
   decorators: [
-    (Story) => <div style={{ padding: 100 }}><Story /></div>,
+    (Story) => (
+      <div style={{ padding: 100 }}>
+        <Story />
+      </div>
+    ),
   ],
 } satisfies Meta<typeof ListBox>;
 

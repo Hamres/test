@@ -17,36 +17,42 @@ type Story = StoryObj<typeof meta>;
 
 export const Light: Story = {
   args: {},
-  decorators: [ThemeDecorator(Theme.LIGHT), StoreDecorator({
-    profile: {
-      form: {
-        username: 'admin',
-        country: Country.Russia,
-        currency: Currency.RUB,
-        age: 26,
-        city: 'Moscow',
-        lastname: 's',
-        firstname: 'Hamres',
-        avatar,
+  decorators: [
+    ThemeDecorator(Theme.LIGHT),
+    StoreDecorator({
+      profile: {
+        form: {
+          username: 'admin',
+          country: Country.Russia,
+          currency: Currency.RUB,
+          age: 26,
+          city: 'Moscow',
+          lastname: 's',
+          firstname: 'Hamres',
+          avatar,
+        },
       },
-    },
-  })],
+    }),
+  ],
 };
 
 export const Dark: Story = {
   args: {},
-  decorators: [ThemeDecorator(Theme.DARK), StoreDecorator({
-    profile: {
-      form: {
-        username: 'admin',
-        country: Country.Russia,
-        currency: Currency.RUB,
-        age: 26,
-        city: 'Moscow',
-        lastname: 's',
-        firstname: 'Hamres',
-        avatar,
+  decorators: [
+    ThemeDecorator(Theme.DARK),
+    StoreDecorator({
+      profile: {
+        form: {
+          username: 'admin',
+          country: Country.Russia,
+          currency: Currency.RUB,
+          age: 26,
+          city: 'Moscow',
+          lastname: 's',
+          firstname: 'Hamres',
+          avatar,
+        },
       },
-    },
-  })],
+    }),
+  ],
 };

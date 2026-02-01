@@ -25,7 +25,10 @@ export const Dark: Story = {
 
 export const AuthNavbar: Story = {
   args: {},
-  decorators: [ThemeDecorator(Theme.DARK), StoreDecorator({
-    user: { authData: {} },
-  })],
+  decorators: [
+    ThemeDecorator(Theme.DARK),
+    StoreDecorator({
+      user: { authData: {} },
+    }),
+  ],
 };

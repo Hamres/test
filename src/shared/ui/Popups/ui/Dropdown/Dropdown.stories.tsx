@@ -14,10 +14,6 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
   args: {
     trigger: <Button>Open</Button>,
-    items: [
-      { content: 'first' },
-      { content: 'second' },
-      { content: 'third' },
-    ],
+    items: [{ content: 'first' }, { content: 'second' }, { content: 'third' }],
   },
 };

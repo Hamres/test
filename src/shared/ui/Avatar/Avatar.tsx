@@ -8,10 +8,10 @@ import { Skeleton } from '../Skeleton';
 
 interface AvatarProps {
   className?: string;
-  src?: string
-  size?: number
-  alt?: string
-  fallbackInverted?: boolean
+  src?: string;
+  size?: number;
+  alt?: string;
+  fallbackInverted?: boolean;
 }
 
 export const Avatar = (props: AvatarProps) => {
@@ -19,13 +19,23 @@ export const Avatar = (props: AvatarProps) => {
 
   const mods: Mods = {};
 
-  const styles = useMemo<CSSProperties>(() => ({
-    width: size,
-    height: size,
-  }), [size]);
+  const styles = useMemo<CSSProperties>(
+    () => ({
+      width: size,
+      height: size,
+    }),
+    [size],
+  );
 
   const fallback = <Skeleton width={size} height={size} border="50%" />;
-  const errorFallback = <Icon invertedColor={fallbackInverted} width={size} height={size} Svg={UserIcon} />;
+  const errorFallback = (
+    <Icon
+      invertedColor={fallbackInverted}
+      width={size}
+      height={size}
+      Svg={UserIcon}
+    />
+  );
 
   return (
     <AppImage

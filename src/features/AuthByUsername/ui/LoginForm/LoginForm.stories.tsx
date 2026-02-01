@@ -12,21 +12,27 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {},
-  decorators: [StoreDecorator({
-    loginForm: { username: '123', password: 'asd' },
-  })],
+  decorators: [
+    StoreDecorator({
+      loginForm: { username: '123', password: 'asd' },
+    }),
+  ],
 };
 
 export const WithError: Story = {
   args: {},
-  decorators: [StoreDecorator({
-    loginForm: { username: '123', password: 'asd', error: 'ERROR' },
-  })],
+  decorators: [
+    StoreDecorator({
+      loginForm: { username: '123', password: 'asd', error: 'ERROR' },
+    }),
+  ],
 };
 
 export const Loading: Story = {
   args: {},
-  decorators: [StoreDecorator({
-    loginForm: { isLoading: true },
-  })],
+  decorators: [
+    StoreDecorator({
+      loginForm: { isLoading: true },
+    }),
+  ],
 };

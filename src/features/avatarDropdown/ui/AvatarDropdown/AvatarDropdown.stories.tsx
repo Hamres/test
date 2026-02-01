@@ -14,5 +14,17 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {},
-  decorators: [StoreDecorator({ user: { authData: { id: '1', roles: [UserRole.ADMIN], username: 'admin', avatar: '' }, _inited: true } })],
+  decorators: [
+    StoreDecorator({
+      user: {
+        authData: {
+          id: '1',
+          roles: [UserRole.ADMIN],
+          username: 'admin',
+          avatar: '',
+        },
+        _inited: true,
+      },
+    }),
+  ],
 };

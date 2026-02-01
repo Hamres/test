@@ -19,7 +19,8 @@ export const resetProfile = (profileId: string) => {
       country: 'Russia',
       city: 'Moscow',
       username: 'testuser',
-      avatar: 'https://sectricity.com/wp-content/uploads/2023/05/Hacker-Cyber-Security-Internet-Sectricity.jpg',
+      avatar:
+        'https://sectricity.com/wp-content/uploads/2023/05/Hacker-Cyber-Security-Internet-Sectricity.jpg',
     },
   });
 };
@@ -27,8 +28,8 @@ export const resetProfile = (profileId: string) => {
 declare global {
   namespace Cypress {
     interface Chainable {
-      updateProfile(firstname: string, lastname: string): Chainable<void>
-      resetProfile(profileId: string): Chainable<void>
+      updateProfile(firstname: string, lastname: string): Chainable<void>;
+      resetProfile(profileId: string): Chainable<void>;
     }
   }
 }
