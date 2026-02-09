@@ -922,7 +922,7 @@
         "ADMIN"
       ],
       "features": {
-        "isArticleRatingEnable": true,
+        "isArticleRatingEnabled": true,
         "isCounterEnabled": true
       },
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
@@ -935,7 +935,7 @@
         "USER"
       ],
       "features": {
-        "isArticleRatingEnable": false,
+        "isArticleRatingEnabled": false,
         "isCounterEnabled": false
       },
       "avatar": "https://sectricity.com/wp-content/uploads/2023/05/Hacker-Cyber-Security-Internet-Sectricity.jpg"
@@ -948,7 +948,7 @@
         "MANAGER"
       ],
       "features": {
-        "isArticleRatingEnable": false,
+        "isArticleRatingEnabled": false,
         "isCounterEnabled": true
       },
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
@@ -961,7 +961,7 @@
         "ADMIN"
       ],
       "features": {
-        "isArticleRatingEnable": true,
+        "isArticleRatingEnabled": true,
         "isCounterEnabled": true
       },
       "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZCBkZ3n4GPzQexyRAVB6eOlJgkykZqEAOjg&s"
