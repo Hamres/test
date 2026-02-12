@@ -37,7 +37,9 @@ export function TestProvider(props: TestProviderProps) {
     <MemoryRouter initialEntries={[route]}>
       <StoreProvider asyncReducers={asyncReducers} initialState={initialState}>
         <I18nextProvider i18n={i18nForTests}>
-          <ThemeProvider>{children}</ThemeProvider>
+          <ThemeProvider initialTheme={theme}>
+            <div className={`app ${theme}`}>{children}</div>
+          </ThemeProvider>
         </I18nextProvider>
       </StoreProvider>
     </MemoryRouter>
