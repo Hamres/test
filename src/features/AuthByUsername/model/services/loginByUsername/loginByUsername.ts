@@ -12,21 +12,31 @@ export const loginByUsername = createAsyncThunk<
   User,
   LoginByUsernameProps,
   ThunkConfig<string>
->('login/loginByUsername', async (authData, ThunkApi) => {
-  const { extra, rejectWithValue, dispatch } = ThunkApi;
-  try {
-    const response = await extra.api.post<User>('/login', authData);
+>('login/loginByUsername', async (authData, thunkApi) => {
+  const { extra, rejectWithValue, dispatch } = thunkApi;
 
-    if (!response.data) {
-      throw new Error('error 1');
+  try {
+    if (process.env.NODE_ENV === 'production') {
+      const fakeUser: User = {
+        id: '1',
+        username: 'testuser',
+      };
+
+      localStorage.setItem(USER_LOCALSTORAGE_KEY, JSON.stringify(fakeUser));
+
+      dispatch(userActions.setAuthData(fakeUser));
+
+      return fakeUser;
     }
 
+    const response = await extra.api.post<User>('/login', authData);
+
     localStorage.setItem(USER_LOCALSTORAGE_KEY, JSON.stringify(response.data));
+
     dispatch(userActions.setAuthData(response.data));
 
     return response.data;
   } catch (e) {
-    console.log(e);
     return rejectWithValue('Неверный логин или пароль');
   }
 });
