@@ -30,5 +30,3 @@ function App() {
 }
 
 export default App;
-
-/// ///////////--- 15 --- 127 просмотрено 2'10
